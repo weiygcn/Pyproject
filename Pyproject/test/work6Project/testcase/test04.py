@@ -6,6 +6,7 @@ import time
 class test04(unittest.TestCase):
     def setUp(self):
         print('start')
+        print('########### test04')
         pass
 
     def tearDown(self):
@@ -28,7 +29,7 @@ class test04(unittest.TestCase):
     def test02(self):
         print('执行测试用例02')
 
-    def addtest(self):
+    def testadd(self):
         print('add方法')
 
 
