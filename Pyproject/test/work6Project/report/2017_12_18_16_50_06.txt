@@ -1,0 +1,43 @@
+
+Running tests... 
+----------------------------------------------------------------------
+ 求和方法测试 ... OK (0.000000)s
+ 乘法结果测试 ... FAIL (0.001034)s
+ testTest (test02.test01) ... FAIL (0.669444)s
+ 快递物流状态接口 ... OK (0.184562)s
+ test01 (test04.test04) ... OK (1.000539)s
+ test02 (test04.test04) ... OK (1.001011)s
+ test03 (test04.test04) ... OK (1.001127)s
+ testAA (test04.test04) ... OK (1.000006)s
+ testaa (test04.test04) ... OK (1.000420)s
+ testadd (test04.test04) ... OK (1.000407)s
+
+======================================================================
+FAIL [0.001034s]: 乘法结果测试
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Pyproject\Pyproject\test\work6Project\testcase\test01.py", line 15, in testChengFa
+    self.assertEqual((1 * 2), 3)
+AssertionError: 2 != 3
+
+======================================================================
+FAIL [0.669444s]: testTest (test02.test01)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Pyproject\Pyproject\test\work6Project\testcase\test02.py", line 45, in testTest
+    self.assertEqual(1, 2, '对比一致')
+AssertionError: 1 != 2 : 对比一致
+########### test02
+2017_12_18_16_50_06
+执行testTest用例
+{'postId': '8058429'}
+200
+<Response [200]>
+
+----------------------------------------------------------------------
+Ran 10 tests in 0:00:06
+
+FAILED
+ (Failures=2)
+
+Generating HTML reports... 
