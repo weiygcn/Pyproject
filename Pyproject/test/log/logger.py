@@ -53,5 +53,5 @@ class Log:
 if __name__ == '__main__':
     log = Log()
     log.info('----开始测试----')
-    log.info("输入密码")
-    log.warning('测试结束')
+    log.info("操作步骤1,2,3")
+    log.warning('----测试结束----')
